@@ -1,5 +1,7 @@
 # Early Stage Diabetes Risk Prediction Project
 
+Team Members: Yiran Liu, Jiyuan Lyu, Zhuofan Huang
+
 ## Abstract
 
 Diabetes is a chronic disease that occurs when the pancreas is no longer able to produce insulin or when the body is unable to make full use of the insulin it produces. In this case, our body’s blood sugar will rise, which will lead to chronic damage, dysfunction of various tissues, especially the eyes, kidneys, heart, blood vessels, and nerves. 
