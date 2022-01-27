@@ -1,6 +1,6 @@
 # Early Stage Diabetes Risk Prediction Project
 
-Team Members: [Yiran Liu](https://github.com/yiranelmo), [Jiyuan Lyu](https://github.com/JiyuanLyu), Zhuofan Huang(https://github.com/jeff1hwang)
+Team Members: [Yiran Liu](https://github.com/yiranelmo), [Jiyuan Lyu](https://github.com/JiyuanLyu), [Zhuofan Huang](https://github.com/jeff1hwang)
 
 ## Abstract
 
