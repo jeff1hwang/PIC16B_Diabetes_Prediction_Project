@@ -14,7 +14,7 @@ In this project, we are aiming to create a Web Page - Diabetes Risk Test. This W
 
 ## Resources Required
 
-Data Set: Early stage diabetes risk prediction dataset from UCI Machine Learning Repository
+**Data Set:** Early stage diabetes risk prediction dataset from UCI Machine Learning Repository
 
 **Link:** [https://archive.ics.uci.edu/ml/datasets/Early+stage+diabetes+risk+prediction+dataset.#](https://archive.ics.uci.edu/ml/datasets/Early+stage+diabetes+risk+prediction+dataset.#)
 
