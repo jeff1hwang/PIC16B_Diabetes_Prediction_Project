@@ -4,13 +4,13 @@
 
 ## Abstract
 
-Diabetes is a chronic disease that occurs when the pancreas is no longer able to produce insulin or when the body is unable to make full use of the insulin it produces. In this case, our body’s blood sugar will rise, which will lead to chronic damage, dysfunction of various tissues, especially the eyes, kidneys, heart, blood vessels, and nerves. 
+Diabetes is a chronic disease that occurs when the pancreas is no longer able to produce insulin or when the body cannot make full use of the insulin it produces. In this case, our body’s blood sugar will rise, which will lead to a chronic damage dysfunction of various tissues, especially the eyes, kidneys, heart, blood vessels, and nerves. 
 
-In this project, we will utilize machine learning algorithms to predict early-stage diabetes risk. Eventually, we will create a Web App where people can input their symptoms to predict whether they are at risk for diabetes. When the result(score) of the Diabetes Risk Test is greater than a certain value, it indicates the high risk of diabetes, and we will recommend the respondent to go to the hospital to do further examinations. We believe that this risk test can help more people identify if they are at risk for diabetes so that they can go to the hospital as soon as possible to reduce the damage it causes to body tissues.
+In this project, we will utilize machine learning algorithms to predict early-stage diabetes risk. Eventually, we will create a Web App where people can input their symptoms to predict whether they are at risk for diabetes. When the result(score) of the Diabetes Risk Test is more significant than a certain value, it indicates the high risk of diabetes, and we will recommend the respondent to go to the hospital to do further examinations. We believe that this risk test can help more people identify if they are at risk for diabetes to go to the hospital as soon as possible to reduce the damage it causes to body tissues.
 
 ## Planned Deliverables
 
-In this project, we are aiming to create a Web Page - Diabetes Risk Test. This Web Page will be based on the machine learning model that we’ve trained by using [Early-stage diabetes risk prediction dataset](https://archive.ics.uci.edu/ml/datasets/Early+stage+diabetes+risk+prediction+dataset.#) from UCI Machine Learning Repository. Our Web App interface will generate a list of questions. These questions may relate to the age, gender, and current symptoms of the respondent. After the respondent completes the risk test, the Web App will determine whether the respondent is potentially at risk for diabetes based on a pre-trained model. If the model determines that the respondent is potentially at risk for diabetes, we will recommend the respondent to go to the hospital for a more comprehensive examination as soon as possible.
+In this project, we aim to create a Web Page - Diabetes Risk Test. This Web Page will be based on the machine learning model that we’ll train using the [Early-stage diabetes risk prediction dataset](https://archive.ics.uci.edu/ml/datasets/Early+stage+diabetes+risk+prediction+dataset.#) from UCI Machine Learning Repository. Our Web App interface will generate a list of questions. These questions may relate to respondents’ age, gender, and current symptoms. After the respondent completes the risk test, the Web App will determine whether the respondent is potentially at risk for diabetes based on a pre-trained model. If the model determines that the respondent is potentially at risk for diabetes, we will recommend the respondent to go to the hospital for a more comprehensive examination as soon as possible.
 
 ## Resources Required
 
@@ -82,15 +82,15 @@ After completing this project, we believe that we will learn more about the use 
 
 ## Risks
 
-The accuracy of machine learning predictions usually depends on the accuracy of the data it uses to learn. We believe that no machine learning prediction is 100% accurate in this world. When there are large differences between the patient's input ANSWER and the trained dataset, the pre-trained model may give an inaccurate result. This could lead to a huge impact on the patient. For example: When a person with Positive diabetes gets Negative test results, he may think that he does not have diabetes and does not have to go to the hospital for further tests. This can possibly lead to huge damage to the patient's body and may cause the patient to miss the best opportunity to treat diabetes in its early stages. Another situation: When a person who does not have diabetes has a test result that shows Positive, that tester may spend a lot of time and money going to the hospital for an examination, wasting unnecessary time and money. Also, this may have an impact on the mental state of a respondent (anxious, depressed).
+The accuracy of machine learning predictions usually depends on the accuracy of the data it uses to learn. We believe that no machine learning prediction is 100% accurate in this world. When there are significant differences between the patient's input ANSWER and the trained dataset, the pre-trained model may give an inaccurate result. This could lead to a huge impact on the patient. For example: When a person with Positive diabetes gets Negative test results, he may think that he does not have diabetes and does not have to go to the hospital for further tests. This can possibly lead to huge damage to the patient's body and may cause the patient to miss the best opportunity to treat diabetes in its early stages. Another situation: When a person who does not have diabetes has a test result that shows Positive, that tester may spend a lot of time and money going to the hospital for an examination, wasting unnecessary time and money. Also, this may have an impact on the mental state of a respondent (anxious, depressed).
 
 ## Ethics
 
 **1. What groups of people have the potential to benefit from the existence of our product?**
 
-- people who may be at risk for diabetes have the potential to benefit from the existence of our product. Our Web App - Diabetes risk prediction could help them determine whether they have the potential risk of diabetes and whether they should go to the hospital to do further examinations as soon as possible.
+- People who may be at risk for diabetes have the potential to benefit from the existence of our product. Our Web App - Diabetes risk prediction could help them determine whether they have the potential risk of diabetes and whether they should go to the hospital to do further examinations as soon as possible.
 
-- Doctors who are in the hospital can use this Web App to initially predict whether the patient has a high risk of Diabetes before they ask the patient to do further physical examinations.
+- Doctors in the hospital can use this Web App to initially predict whether the patient has a high risk of Diabetes before they ask the patient to do further physical examinations.
 
 **2. What groups of people have the potential to be harmed from the existence of our product?**
 
