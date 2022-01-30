@@ -10,7 +10,15 @@ In this project, we will utilize machine learning algorithms to predict early-st
 
 ## Planned Deliverables
 
-In this project, we aim to create a Web Page - Diabetes Risk Test. This Web Page will be based on the machine learning model that we’ll train using the [Early-stage diabetes risk prediction dataset](https://archive.ics.uci.edu/ml/datasets/Early+stage+diabetes+risk+prediction+dataset.#) from UCI Machine Learning Repository. Our Web App interface will generate a list of questions. These questions may relate to respondents’ age, gender, and current symptoms. After the respondent completes the risk test, the Web App will determine whether the respondent is potentially at risk for diabetes based on a pre-trained model. If the model determines that the respondent is potentially at risk for diabetes, we will recommend the respondent to go to the hospital for a more comprehensive examination as soon as possible.
+In this project, There are "Partial Success" and "Full Success".
+
+**Full Success:**
+
+Our goal for "Full Success" is to create a Web Page - Diabetes Risk Test. This Web Page will be based on the machine learning model that we’ll train using the [Early-stage diabetes risk prediction dataset](https://archive.ics.uci.edu/ml/datasets/Early+stage+diabetes+risk+prediction+dataset.#) from UCI Machine Learning Repository. Our Web App interface will generate a list of questions. These questions may relate to respondents’ age, gender, and current symptoms. After the respondent completes the risk test, the Web App will determine whether the respondent is potentially at risk for diabetes based on a pre-trained model. If the model determines that the respondent is potentially at risk for diabetes, we will recommend the respondent to go to the hospital for a more comprehensive examination as soon as possible.
+
+**Partial Success:**
+
+In our project, our goal for Partial Success is to find the appropriate machine learning algorithm to complete the training of the dataset and get a model with a prediction accuracy of at least 95%. This "Partial Success" will be based on the condition that we are unable to complete the Web App on time. The reasons for not being able to complete the Web App may be 1. lack of time, or 2. insufficient knowledge to support an interactive Web App interface. In this case, our product will be the accurate model that we train using the data set. We will introduce and share our model with doctors, hospitals, and medical practitioners.
 
 ## Resources Required
 
@@ -97,6 +105,11 @@ The accuracy of machine learning predictions usually depends on the accuracy of 
 - Although we stated that people who may be at risk for diabetes have the potential to benefit from our product, they can also have the potential to be harmed by our product. When the risk test gives an inaccurate result, people may be harmed from this result. For example, if the test gives Negative results to a person who has diabetes, the person may decide not to go to the hospital to do professional examinations.
 
 - Hospital: Fewer people will go to the hospital for diabetes screening, which may reduce the hospital's revenue.
+
+**What we would do to avoid the above issues?**
+
+False negative issue: before the respondent starts filling out the Test, we will inform the respondent of the possibility that the test could be inaccurate by popping up a windows on the web page . We would also highlight the possibility of false negative test results, and even if the results are negative, we strongly recommend that patients go to the hospital for a professional physical examination in case of any abnormal physical conditions. (Early symptoms of diabetes vary from person to person and may be different for each individual, so it is highly recommended that anyone who feels abnormal go to the hospital immediately for a more specialized examination)
+
 
 
 **3. Will the world become an overall better place because of the existence of our product?**
