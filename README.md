@@ -18,7 +18,7 @@ Our goal for "Full Success" is to create a Web Page - Diabetes Risk Test. This W
 
 **Partial Success:**
 
-In our project, our goal for Partial Success is to find the appropriate machine learning algorithm to complete the training of the dataset and get a model with a prediction accuracy of at least 95%. This "Partial Success" will be based on the condition that we are unable to complete the Web App on time. The reasons for not being able to complete the Web App may be 1. lack of time, or 2. insufficient knowledge to support an interactive Web App interface. In this case, our product will be the accurate model that we train using the data set. We will introduce and share our model with doctors, hospitals, and medical practitioners.
+In our project, our goal for Partial Success is to find the appropriate machine learning algorithm to complete the training of the dataset and get a model with a prediction accuracy of at least 95%. This "Partial Success" considers the conditions that we cannot complete the Web App on time. The reasons for not completing the Web App might be 1. lack of time; 2. insufficient knowledge to support an interactive Web App interface. Our product will be the accurate model that we train using the data set in these cases. We will introduce and share our model with doctors, hospitals, and medical practitioners.
 
 ## Resources Required
 
