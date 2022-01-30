@@ -75,6 +75,8 @@ Class 1.Positive, 2.Negative.
 
 - Web Page Design
 
+- RStudio
+
 
 **Tools:**
 - Visual Studio Code
@@ -82,6 +84,8 @@ Class 1.Positive, 2.Negative.
 - Jupyter Notebook
 
 - Github Collaboration
+
+- Tableau 
 
 
 ## What You Will Learn
