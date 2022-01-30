@@ -108,9 +108,9 @@ The accuracy of machine learning predictions usually depends on the accuracy of 
 
 **What we would do to avoid the above issues?**
 
-False-negative issue: before the respondent starts filling out the test, we will inform the respondent of the possibility that the test could be inaccurate by popping up a window on the web page. We would also highlight the potential of false-negative test results. 
+- False-negative issue: before the respondent starts filling out the test, we will inform the respondent of the possibility that the test could be inaccurate by popping up a window on the web page. We would also highlight the potential of false-negative test results. 
 
-Even if the results are negative, we strongly recommend that patients go to the hospital for a professional physical examination in case of any abnormal physical conditions. (Early symptoms of diabetes vary from person to person and may be different for each individual, so we highly recommended that anyone who feels abnormal go to the hospital immediately for a more specialized examination)
+- Even if the results are negative, we strongly recommend that patients go to the hospital for a professional physical examination in case of any abnormal physical conditions. (Early symptoms of diabetes vary from person to person and may be different for each individual, so we highly recommended that anyone who feels abnormal go to the hospital immediately for a more specialized examination)
 
 
 
