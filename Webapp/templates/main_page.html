@@ -1,10 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
 
-</body>
-</html>
+<!-- loading style.css -->
+<link rel = "stylesheet" href = "{{ url_for('static', filename='style.css') }}">
+<!-- webapp title -->
+<title>{% block title %}{% endblock %} Prediabetes Risk Test </title>
+
+<!-- Web page -->
+<nav>
+  <h1>Prediabetes Risk Test</h1>
+  <ul>
+    <li><a href = "{{ url_for('other_page1') }}" > Table a Test </a></li>
+  </ul>
+</nav>
+
+<section class = "content">
+  <header>
+    {% block header %}{% endblock %}
+  </header>
+  {% block content %}
+    <br>
+    <p> Submit a message and view messages in this message bank!</p>
+  {% endblock %}
+</section>
