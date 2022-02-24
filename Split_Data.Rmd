@@ -7,7 +7,7 @@ output: html_document
 
 ```{r}
 data <- read.csv("diabetes_data_upload.csv")
-```
+``` 
 
 ```{r}
 positive <- data[data$class == "Positive",]
@@ -30,6 +30,64 @@ positive = positive[1:200,]
 sum(positive$muscle.stiffness == "No") / 200; sum(positive$muscle.stiffness == "Yes") / 200
 sum(negative$muscle.stiffness == "No") / 200; sum(negative$muscle.stiffness == "Yes") / 200
 ```
+"muscle.stiffness" 不具有参考意义
+
+```{r}
+sum(positive$weakness == "No") / 200; sum(positive$weakness == "Yes") / 200
+sum(negative$weakness == "No") / 200; sum(negative$weakness == "Yes") / 200
+```
+"weakness" 具有参考意义
+
+```{r}
+sum(positive$visual.blurring == "No") / 200; sum(positive$visual.blurring == "Yes") / 200
+sum(negative$visual.blurring == "No") / 200; sum(negative$visual.blurring == "Yes") / 200
+```
+"visual blurring" 具有参考意义
+
+```{r}
+sum(positive$Irritability == "No") / 200; sum(positive$Irritability == "Yes") / 200
+sum(negative$Irritability == "No") / 200; sum(negative$Irritability == "Yes") / 200
+```
+"Irritability" 不具有参考意义
+
+```{r}
+sum(positive$Alopecia == "No") / 200; sum(positive$Alopecia == "Yes") / 200
+sum(negative$Alopecia == "No") / 200; sum(negative$Alopecia == "Yes") / 200
+```
+"Alopecia" 不具有参考意义
+
+```{r}
+sum(positive$Polyuria == "No") / 200; sum(positive$Polyuria == "Yes") / 200
+sum(negative$Polyuria == "No") / 200; sum(negative$Polyuria == "Yes") / 200
+```
+"Polyuria" 具有参考意义
+
+```{r}
+sum(positive$Polydipsia == "No") / 200; sum(positive$Polydipsia == "Yes") / 200
+sum(negative$Polydipsia == "No") / 200; sum(negative$Polydipsia == "Yes") / 200
+```
+"Polydipsia" 具有参考意义
+
+```{r}
+sum(positive$sudden.weight.loss == "No") / 200; sum(positive$sudden.weight.loss == "Yes") / 200
+sum(negative$sudden.weight.loss == "No") / 200; sum(negative$sudden.weight.loss == "Yes") / 200
+```
+"sudden.weight.loss" 具有参考意义
+
+```{r}
+sum(positive$Polyphagia == "No") / 200; sum(positive$Polyphagia == "Yes") / 200
+sum(negative$Polyphagia == "No") / 200; sum(negative$Polyphagia == "Yes") / 200
+```
+"Polyphagia" 具有参考意义
+
+```{r}
+sum(positive$partial.paresis == "No") / 200; sum(positive$partial.paresis == "Yes") / 200
+sum(negative$partial.paresis == "No") / 200; sum(negative$partial.paresis == "Yes") / 200
+```
+"partial.paresis" 具有参考意义
+
+"Irritability"，"muscle.stiffness"，"Alopecia" 不显著
+
 
 ```{r}
 table(positive$muscle.stiffness)
