@@ -1,0 +1,60 @@
+---
+title: "split data"
+author: "Yiran Liu"
+date: "2/24/2022"
+output: html_document
+---
+
+```{r}
+data <- read.csv("diabetes_data_upload.csv")
+```
+
+```{r}
+positive <- data[data$class == "Positive",]
+negative <- data[data$class == "Negative",]
+```
+
+```{r}
+keeps <- c("muscle.stiffness", "weakness", "visual.blurring", "Irritability", 
+           "Alopecia", "Polyuria", "Polydipsia", "sudden.weight.loss", 
+           "Polyphagia", "partial.paresis", "class")
+```
+
+```{r}
+positive = positive[keeps]
+negative = negative[keeps]
+positive = positive[1:200,]
+```
+
+```{r}
+sum(positive$muscle.stiffness == "No") / 200; sum(positive$muscle.stiffness == "Yes") / 200
+sum(negative$muscle.stiffness == "No") / 200; sum(negative$muscle.stiffness == "Yes") / 200
+```
+
+```{r}
+table(positive$muscle.stiffness)
+table(positive$weakness)
+table(positive$visual.blurring)
+table(positive$Irritability)
+table(positive$Alopecia)
+table(positive$Polyuria)
+table(positive$Polydipsia)
+table(positive$sudden.weight.loss)
+table(positive$Polyphagia)
+table(positive$partial.paresis)
+```
+
+```{r}
+table(negative$muscle.stiffness)
+table(negative$weakness)
+table(negative$visual.blurring)
+table(negative$Irritability)
+table(negative$Alopecia)
+table(negative$Polyuria)
+table(negative$Polydipsia)
+table(negative$sudden.weight.loss)
+table(negative$Polyphagia)
+table(negative$partial.paresis)
+```
+
+
