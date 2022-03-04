@@ -18,6 +18,9 @@ h1 {
     margin: 1 auto;
     text-align: center;
     padding: 1rem;
+    border-bottom-style: dashed;
+	border-bottom-color: #000000;
+	border-bottom-width: 2px;
 }
 
 
