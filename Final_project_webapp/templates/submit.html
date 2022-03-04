@@ -1,0 +1,154 @@
+<!--The Submit Message Page Extended from base.html-->
+
+{% extends 'base.html' %}
+
+{% block header %}
+  <h1>{% block title %}Complete The Following Survey{% endblock %}</h1>
+{% endblock %}
+
+{% block content %}
+    <!-- Creating the three user interfaces within a form tag -->
+    <br>
+    <form method="post">
+
+      <!-- Question 1: Creating a text box for submitting name or handle -->
+      <label for="handle">1. Enter Your Name</label>
+      <input type="text" name="handle" id="handle">
+      <br>
+
+      <!-- Question 2: Creating a text box for submitting your age -->
+      <label for="message">2. Enter Your Age</label>
+      <input type="text" name="message" id="message">
+      <br>
+
+      <!-- Question 3: Creating a checkbox for Muscle Stiffness -->
+      <label for="muscle_stiffness">3. Muscle Stiffness: </label>
+      <label>
+        <input type="radio" name="muscle_stiffness", id="muscle_stiffness", value="yes">
+        Yes
+      </label>
+      <label>
+        <input type="radio" name="muscle_stiffness", id="muscle_stiffness", value="no">
+        No
+      </label>
+      <br>
+
+      <!-- Question 4: Creating a checkbox for Weakness -->
+      <label for="weakness">4. Weakness: </label>
+      <label>
+        <input type="radio" name="weakness", id="weakness", value="yes">
+        Yes
+      </label>
+      <label>
+        <input type="radio" name="weakness", id="weakness", value="no">
+        No
+      </label>
+      <br>
+
+      <!-- Question 5: Creating a checkbox for Visual Blurring -->
+      <label for="visual_blurring">5. Visual Blurring: </label>
+      <label>
+        <input type="radio" name="visual_blurring", id="visual_blurring", value="yes">
+        Yes
+      </label>
+      <label>
+        <input type="radio" name="visual_blurring", id="visual_blurring", value="no">
+        No
+      </label>
+      <br>
+
+      <!-- Question 6: Creating a checkbox for Irritability -->
+      <label for="Irritability">6. Irritability: </label>
+      <label>
+        <input type="radio" name="Irritability", id="Irritability", value="yes">
+        Yes
+      </label>
+      <label>
+        <input type="radio" name="Irritability", id="Irritability", value="no">
+        No
+      </label>
+      <br>
+
+      <!-- Question 7: Creating a checkbox for Alopecia -->
+      <label for="Alopecia">7. Alopecia: </label>
+      <label>
+        <input type="radio" name="Alopecia", id="Alopecia", value="yes">
+        Yes
+      </label>
+      <label>
+        <input type="radio" name="Alopecia", id="Alopecia", value="no">
+        No
+      </label>
+      <br>
+
+      <!-- Question 8: Creating a checkbox for Polyuria -->
+      <label for="Polyuria">8. Polyuria: </label>
+      <label>
+        <input type="radio" name="Polyuria", id="Polyuria", value="yes">
+        Yes
+      </label>
+      <label>
+        <input type="radio" name="Polyuria", id="Polyuria", value="no">
+        No
+      </label>
+      <br>
+
+      <!-- Question 9: Creating a checkbox for Polydipsia -->
+      <label for="Polydipsia">9. Polydipsia: </label>
+      <label>
+        <input type="radio" name="Polydipsia", id="Polydipsia", value="yes">
+        Yes
+      </label>
+      <label>
+        <input type="radio" name="Polydipsia", id="Polydipsia", value="no">
+        No
+      </label>
+      <br>
+
+      <!-- Question 10: Creating a checkbox for Sudden Weight Loss -->
+      <label for="sudden_weight_loss">10. Sudden Weight Loss: </label>
+      <label>
+        <input type="radio" name="sudden_weight_loss", id="sudden_weight_loss", value="yes">
+        Yes
+      </label>
+      <label>
+        <input type="radio" name="sudden_weight_loss", id="sudden_weight_loss", value="no">
+        No
+      </label>
+      <br>
+
+      <!-- Question 11: Creating a checkbox for Polyphagia -->
+      <label for="Polyphagia">11. Polyphagia: </label>
+      <label>
+        <input type="radio" name="Polyphagia", id="Polyphagia", value="yes">
+        Yes
+      </label>
+      <label>
+        <input type="radio" name="Polyphagia", id="Polyphagia", value="no">
+        No
+      </label>
+      <br>
+
+      <!-- Question 12: Creating a checkbox for Partial Paresis -->
+      <label for="partial_paresis">12. Partial Paresis: </label>
+      <label>
+        <input type="radio" name="partial_paresis", id="partial_paresis", value="yes">
+        Yes
+      </label>
+      <label>
+        <input type="radio" name="partial_paresis", id="partial_paresis", value="no">
+        No
+      </label>
+      <br>
+
+
+      <!-- Finally: Creating a submit button -->
+      <input type="submit" value="Submit Your Test">
+    </form>
+
+{% if thanks %}
+    <b>Thank you for submitting completing the Diabetes Risk Test. Please click View Your Result!</b>
+{% endif %}
+
+    
+{% endblock %}

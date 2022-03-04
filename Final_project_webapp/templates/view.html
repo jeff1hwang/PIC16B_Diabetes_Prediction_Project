@@ -1,0 +1,18 @@
+<!--The View Page Extended from base.html-->
+{% extends 'base.html' %}
+
+{% block header %}
+    <!-- Title -->
+<h1>{% block title %}Some Cool Messages{% endblock %}</h1>
+{% endblock %}
+
+{% block content %}
+  {% for m in messages %}
+  <br>
+  <b>{{m.1}}</b>
+  <br>
+  <i>- {{m.0}}</i>
+  <i>- {{m.2}}</i>
+  <br>
+  {% endfor %}
+{% endblock %}

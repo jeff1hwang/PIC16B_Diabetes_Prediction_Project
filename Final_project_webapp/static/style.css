@@ -1,0 +1,44 @@
+html {
+    background: rgb(249, 205, 173);
+    padding: 1rem;
+    font-family: Monospace;
+    font-size: x-large;
+}
+
+body {
+    max-width: 900px;
+    margin: 0 auto;
+    line-height: 1cm;
+
+}
+
+h1 {
+    color: rgb(23, 23, 24);
+    font-family: cursive;
+    margin: 1 auto;
+    text-align: center;
+    padding: 1rem;
+}
+
+
+nav {
+    padding: 0 1rem;
+    border-radius: 25px;
+    max-width: 5000px;
+    
+}
+
+nav ul li a {
+    display: block;
+    padding: 0.4rem;
+}
+
+
+input {
+    outline-style: none;
+    border-radius: 3px;
+}
+
+a {
+    text-decoration: none;
+}

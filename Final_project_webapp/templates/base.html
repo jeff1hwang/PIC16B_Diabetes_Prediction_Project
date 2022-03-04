@@ -1,0 +1,26 @@
+<!doctype html>
+<!-- Link to the CSS stylesheet -->
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+<!-- This appears at the top of the browser window -->
+<title>Blog Post 2</title>
+<nav>
+  <!-- Web page heading -->
+  <h1>Diabetes Risk Test Web App</h1>
+  <ul>
+    <!-- Link the submit page on main page -->
+    <li><a href="{{ url_for('submit') }}">Take the Risk Test</a></li>
+    <!-- Link the view page on main page -->
+    <li><a href="{{ url_for('view') }}">View Your Result</a></li>
+  </ul>
+</nav>
+
+<section class="content">
+  <header>
+    {% block header %}{% endblock %}
+  </header>
+  {% block content %}
+    <br>
+    <p> Welcome to the Diabetes Risk Test Web Page! Click Take the Risk Test to complete the quiz and view the result by clicking View Your Result</p>
+  {% endblock %}
+</section>
