@@ -23,5 +23,12 @@
   {% block content %}
     <br>
     <p> Welcome to the Diabetes Risk Test Web Page! Click <strong>"Take the Risk Test"</strong> to complete the quiz and view the result by clicking <strong>"View Your Result"</strong>.</p>
+    <br>
+    
+    <b><p>What is Diabetes?</p></b>
+    <p>Diabetes is a chronic disease that occurs when the pancreas is no longer able to produce insulin or when the body cannot make full use of the insulin it produces. In this case, our body's blood sugar will rise, which will lead to a chronic damage dysfunction of various tissues, especially the eyes, kidneys, heart, blood vessels, and nerves.</p>
+    <p>In this Diabetes Risk Test, we utilize machine learning algorithms to predict early-stage diabetes risk. When a result(score) of the test return POSITIVE, it indicates the high risk of diabetes. If the result of the test return NEGATIVE, it indicates the lower risk of diabetes.</p>
+    <b><p>Is this test accurate?</p></b>
+    <p>Our machine learning model was trained using XG Boost Classifier, and we reached a highest validation accuracy of 97.12%. However, our test may not be accurate, anyone should not over-rely upon the test result. If you have any symptoms of discomfort, please visit a hospital immediately for a professional examination.</p>
   {% endblock %}
 </section>

@@ -3,16 +3,35 @@
 
 {% block header %}
     <!-- Title -->
-<h1>{% block title %}Some Cool Messages{% endblock %}</h1>
+<h1>{% block title %}Your Test Result{% endblock %}</h1>
 {% endblock %}
 
 {% block content %}
   {% for m in messages %}
   <br>
-  <b>{{m.1}}</b>
+  Your Name is: <b>{{m.1}}</b>
   <br>
-  <i>- {{m.0}}</i>
-  <i>- {{m.2}}</i>
+  Your Age is: <b>{{m.0}}</b>
   <br>
+  Your Test result is: <b>{{m.2}}</b>
+  <br>
+  {% if m.2 == "positive" %}
+  <br>
+  According to our Diabetes Risk Test, your result is <b>positive</b>. This means that you have a high risk of diabetes. According to our machine learning model, your risk of diabetes exceeded our pre-set baseline. We strongly recommend that you visit a hospital immediately for a professional physical examination!
+  <br>
+  <br>
+  <i><b>Please also note that:</b></i>
+  <br>
+  This test may NOT be accurate! You should not over-rely upon the test result. If you have any symptoms of discomfort, please visit a hospital immediately for a professional examination.
+  
+  {% else %}
+  <br>
+  <i>According to the Diabetes Risk Test, your result is <b>negative</b>. This means that you have a lower risk of diabetes. According to our machine learning model, your risk of diabetes did not exceeded our pre-set baseline.</i>
+  <br>
+  <br>
+  <i><b>However, Please note that:</b></i>
+  <br>
+  This test may NOT be accurate! You should not over-rely upon the test result. If you have any symptoms of discomfort, please visit a hospital immediately for a professional examination.
+  {% endif %}
   {% endfor %}
 {% endblock %}

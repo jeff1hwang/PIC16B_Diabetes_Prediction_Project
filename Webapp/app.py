@@ -22,6 +22,7 @@ def get_message_db():
     # open a database to store the messages
     if "message_db" not in g:
         g.message_db = sqlite3.connect("messages_db.sqlite")
+
     cursor = g.message_db.cursor()
 
     # Check whether a table called messages exists in message_db
@@ -63,7 +64,7 @@ def insert_message(request):
     result = xgb_model.predict(df)
     result = result[0]
     if result == 1:
-        result = "positve"
+        result = "positive"
     else:
         result = "negative"
     # Insert the message into the message database
