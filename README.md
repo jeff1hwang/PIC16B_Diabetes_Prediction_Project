@@ -2,23 +2,33 @@
 
 **Team Members:** [Yiran Liu](https://github.com/yiranelmo), [Jiyuan Lyu](https://github.com/JiyuanLyu), [Zhuofan Huang](https://github.com/jeff1hwang)
 
+
+
 ## Abstract
 
 Diabetes is a chronic disease that occurs when the pancreas is no longer able to produce insulin or when the body cannot make full use of the insulin it produces. In this case, our body’s blood sugar will rise, which will lead to a chronic damage dysfunction of various tissues, especially the eyes, kidneys, heart, blood vessels, and nerves. 
 
 In this project, we will utilize machine learning algorithms to predict early-stage diabetes risk. Eventually, we will create a Web App where people can input their symptoms to predict whether they are at risk for diabetes. When the result(score) of the Diabetes Risk Test is more significant than a certain value, it indicates the high risk of diabetes, and we will recommend the respondent to go to the hospital to do further examinations. We believe that this risk test can help more people identify if they are at risk for diabetes to go to the hospital as soon as possible to reduce the damage it causes to body tissues. In the meantime, we hope that the project becomes more mature someday in the future and that it will offer more possibilities for better public health afterwards.
 
-## Planned Deliverables
+### Home Page
 
-In this project, There are "Partial Success" and "Full Success".
+![Home Page](https://github.com/jeff1hwang/PIC16B_Diabetes_Prediction_Project/blob/main/image/figure1.png?raw=true)
 
-**Full Success:**
 
-Our goal for "Full Success" is to create a Web Page - Diabetes Risk Test. This Web Page will be based on the machine learning model that we’ll train using the [Early-stage diabetes risk prediction dataset](https://archive.ics.uci.edu/ml/datasets/Early+stage+diabetes+risk+prediction+dataset.#) from UCI Machine Learning Repository. Our Web App interface will generate a list of questions. These questions may relate to respondents’ age, gender, and current symptoms. After the respondent completes the risk test, the Web App will determine whether the respondent is potentially at risk for diabetes based on a pre-trained model. If the model determines that the respondent is potentially at risk for diabetes, we will recommend the respondent to go to the hospital for a more comprehensive examination as soon as possible.
 
-**Partial Success:**
+### Submit Page
 
-In our project, our goal for Partial Success is to find the appropriate machine learning algorithm to complete the training of the dataset and get a model with a prediction accuracy of at least 95%. This "Partial Success" considers the conditions that we cannot complete the Web App on time. The reasons for not completing the Web App might be 1. lack of time; 2. insufficient knowledge to support an interactive Web App interface. Our product will be the accurate model that we train using the data set in these cases. We will introduce and share our model with doctors, hospitals, and medical practitioners.
+![Submit Page](https://github.com/jeff1hwang/PIC16B_Diabetes_Prediction_Project/blob/main/image/figure2.png?raw=true)
+
+
+
+### View.html
+
+![View Page](https://github.com/jeff1hwang/PIC16B_Diabetes_Prediction_Project/blob/main/image/figure3.png?raw=true)
+
+
+
+
 
 ## Resources Required
 
@@ -28,69 +38,7 @@ In our project, our goal for Partial Success is to find the appropriate machine 
 
 **Data Set Information:** This has been collected using direct questionnaires from the patients of Sylhet Diabetes Hospital in Sylhet, Bangladesh, and approved by a doctor.
 
-**Attribute Information:**
-
-Age 1.20-65
-
-Sex 1. Male, 2.Female
-
-Polyuria 1.Yes, 2.No.
-
-Polydipsia 1.Yes, 2.No.
-
-sudden weight loss 1.Yes, 2.No.
-
-weakness 1.Yes, 2.No.
-
-Polyphagia 1.Yes, 2.No.
-
-Genital thrush 1.Yes, 2.No.
-
-visual blurring 1.Yes, 2.No.
-
-Itching 1.Yes, 2.No.
-
-Irritability 1.Yes, 2.No.
-
-delayed healing 1.Yes, 2.No.
-
-partial paresis 1.Yes, 2.No.
-
-muscle stiffness 1.Yes, 2.No.
-
-Alopecia 1.Yes, 2.No.
-
-Obesity 1.Yes, 2.No.
-
-Class 1.Positive, 2.Negative.
-
-## Tools and Skills Required
-
-**Skills:**
-- Python: numpy, pandas, matplotlib, sklearn, flask, pickle, etc,.
-
-- Machine Learning: Data Cleaning, Data Visualization, Machine Learning Algorithms
-
-- HTML, CSS
-
-- Web Page Design
-
-- RStudio
-
-
-**Tools:**
-- Visual Studio Code
-
-- Jupyter Notebook
-
-- Github Collaboration
-
-- Tableau 
-
-
-## What You Will Learn
-
-After completing this project, we believe that we will learn more about the use of machine learning in the python environment. Also, we will gain more skills in web development. This may include HTML and CSS languages. More importantly, we will become proficient in version control by using Github to collaborate with our teammates.
+****
 
 ## Risks
 
@@ -122,5 +70,4 @@ The accuracy of machine learning predictions usually depends on the accuracy of 
 
 - Doctors could use our product to help determine if a patient has diabetes.
 People can check their health status at a much lower cost by using our product.
-
 
