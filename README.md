@@ -1,102 +1,110 @@
 # Early Stage Diabetes Risk Prediction Project
 
+
+
+## Contributors:
+
+
+
 **Team Members:** [Yiran Liu](https://github.com/yiranelmo), [Jiyuan Lyu](https://github.com/JiyuanLyu), [Zhuofan Huang](https://github.com/jeff1hwang)
 
-## Abstract
+
+
+## About this Project
 
 Diabetes is a chronic disease that occurs when the pancreas is no longer able to produce insulin or when the body cannot make full use of the insulin it produces. In this case, our body’s blood sugar will rise, which will lead to a chronic damage dysfunction of various tissues, especially the eyes, kidneys, heart, blood vessels, and nerves. 
 
-In this project, we will utilize machine learning algorithms to predict early-stage diabetes risk. Eventually, we will create a Web App where people can input their symptoms to predict whether they are at risk for diabetes. When the result(score) of the Diabetes Risk Test is more significant than a certain value, it indicates the high risk of diabetes, and we will recommend the respondent to go to the hospital to do further examinations. We believe that this risk test can help more people identify if they are at risk for diabetes to go to the hospital as soon as possible to reduce the damage it causes to body tissues. In the meantime, we hope that the project becomes more mature someday in the future and that it will offer more possibilities for better public health afterwards.
-
-## Planned Deliverables
-
-In this project, There are "Partial Success" and "Full Success".
-
-**Full Success:**
-
-Our goal for "Full Success" is to create a Web Page - Diabetes Risk Test. This Web Page will be based on the machine learning model that we’ll train using the [Early-stage diabetes risk prediction dataset](https://archive.ics.uci.edu/ml/datasets/Early+stage+diabetes+risk+prediction+dataset.#) from UCI Machine Learning Repository. Our Web App interface will generate a list of questions. These questions may relate to respondents’ age, gender, and current symptoms. After the respondent completes the risk test, the Web App will determine whether the respondent is potentially at risk for diabetes based on a pre-trained model. If the model determines that the respondent is potentially at risk for diabetes, we will recommend the respondent to go to the hospital for a more comprehensive examination as soon as possible.
-
-**Partial Success:**
-
-In our project, our goal for Partial Success is to find the appropriate machine learning algorithm to complete the training of the dataset and get a model with a prediction accuracy of at least 95%. This "Partial Success" considers the conditions that we cannot complete the Web App on time. The reasons for not completing the Web App might be 1. lack of time; 2. insufficient knowledge to support an interactive Web App interface. Our product will be the accurate model that we train using the data set in these cases. We will introduce and share our model with doctors, hospitals, and medical practitioners.
-
-## Resources Required
-
-**Data Set:** Early stage diabetes risk prediction dataset from UCI Machine Learning Repository
-
-**Link:** [https://archive.ics.uci.edu/ml/datasets/Early+stage+diabetes+risk+prediction+dataset.#](https://archive.ics.uci.edu/ml/datasets/Early+stage+diabetes+risk+prediction+dataset.#)
-
-**Data Set Information:** This has been collected using direct questionnaires from the patients of Sylhet Diabetes Hospital in Sylhet, Bangladesh, and approved by a doctor.
-
-**Attribute Information:**
-
-Age 1.20-65
-
-Sex 1. Male, 2.Female
-
-Polyuria 1.Yes, 2.No.
-
-Polydipsia 1.Yes, 2.No.
-
-sudden weight loss 1.Yes, 2.No.
-
-weakness 1.Yes, 2.No.
-
-Polyphagia 1.Yes, 2.No.
-
-Genital thrush 1.Yes, 2.No.
-
-visual blurring 1.Yes, 2.No.
-
-Itching 1.Yes, 2.No.
-
-Irritability 1.Yes, 2.No.
-
-delayed healing 1.Yes, 2.No.
-
-partial paresis 1.Yes, 2.No.
-
-muscle stiffness 1.Yes, 2.No.
-
-Alopecia 1.Yes, 2.No.
-
-Obesity 1.Yes, 2.No.
-
-Class 1.Positive, 2.Negative.
-
-## Tools and Skills Required
-
-**Skills:**
-- Python: numpy, pandas, matplotlib, sklearn, flask, pickle, etc,.
-
-- Machine Learning: Data Cleaning, Data Visualization, Machine Learning Algorithms
-
-- HTML, CSS
-
-- Web Page Design
-
-- RStudio
+In this project, we utilized machine learning algorithms to predict early-stage diabetes risk. Eventually, we created a Web App where people can input their symptoms to predict whether they are at risk for diabetes. When the result of the Diabetes Risk Test is more significant than a certain value, it indicates the high risk of diabetes, and we will recommend the respondent to go to the hospital to do further examinations. We believe that this risk test can help more people identify if they are at risk for diabetes to go to the hospital as soon as possible to reduce the damage it causes to body tissues. In the meantime, we hope that the project becomes more mature someday in the future and that it will offer more possibilities for better public health afterwards.
 
 
-**Tools:**
-- Visual Studio Code
 
-- Jupyter Notebook
-
-- Github Collaboration
-
-- Tableau 
+**The following three images are some displays of the webapp.**
 
 
-## What You Will Learn
 
-After completing this project, we believe that we will learn more about the use of machine learning in the python environment. Also, we will gain more skills in web development. This may include HTML and CSS languages. More importantly, we will become proficient in version control by using Github to collaborate with our teammates.
+*Home Page(base.html):*
 
-## Risks
+![Home Page](https://github.com/jeff1hwang/PIC16B_Diabetes_Prediction_Project/blob/main/image/figure1.png?raw=true)
 
-The accuracy of machine learning predictions usually depends on the accuracy of the data it uses to learn. We believe that no machine learning prediction is 100% accurate in this world. When there are significant differences between the patient's input ANSWER and the trained dataset, the pre-trained model may give an inaccurate result. This could lead to a huge impact on the patient. For example: When a person with Positive diabetes gets Negative test results, he may think that he does not have diabetes and does not have to go to the hospital for further tests. This can possibly lead to huge damage to the patient's body and may cause the patient to miss the best opportunity to treat diabetes in its early stages. Another situation: When a person who does not have diabetes has a test result that shows Positive, that tester may spend a lot of time and money going to the hospital for an examination, wasting unnecessary time and money. Also, this may have an impact on the mental state of a respondent (anxious, depressed).
+
+
+*Take Test Page(submit.html):*
+
+![Submit Page](https://github.com/jeff1hwang/PIC16B_Diabetes_Prediction_Project/blob/main/image/figure2.png?raw=true)
+
+
+
+*View Result Page(view.html):*
+
+![View Page](https://github.com/jeff1hwang/PIC16B_Diabetes_Prediction_Project/blob/main/image/figure3.png?raw=true)
+
+
+
+## Getting Start
+
+
+
+#### Installation
+
+1. Clone the repository
+
+   ```shell
+   $ git clone https://github.com/jeff1hwang/PIC16B_Diabetes_Prediction_Project.git
+   ```
+
+2. Install packages
+
+   Install the packages in order to ensure that you can run the project
+
+   ```shell
+   $  pip install flask
+   $  pip install pandas
+   $  pip install pickle
+   $  pip install sqlite3
+   $  pip install random
+   $  pip install operator
+   ```
+
+
+
+#### Execution
+
+The working directory should be navigated to `PIC16B_Diabetes_Prediction_Project/webapp`
+
+```shell
+$ cd webapp
+$ conda activate base
+$ export FLASK_ENV=development
+$ flask run
+```
+
+
+
+## Usage
+
+
+
+***Home Page***
+
+This page is mainly a brief description of our project, including the main purpose and basic structure. Once you have learned the basic information about this Diabetes webapp, you can proceed to the next step by clicking on "**Take the Risk Test**".
+
+
+
+***Take Test Page***
+
+Once you enter this page, you can formally fill out the test. in addition to some basic information, you will be asked some yes or no questions about diabetes. Once you have completed all the questions, click on "**Submit Your Test**" to submit your answers.
+
+
+
+***View Result Page***
+
+After you have submitted your test question, you can view your diabetes prediction results by clicking on **View Your Result**. Also, you will find on this page how your results were obtained and the advice we give you based on your predictions.
+
+
 
 ## Ethics
+
+
 
 **1. What groups of people have the potential to benefit from the existence of our product?**
 
@@ -124,3 +132,26 @@ The accuracy of machine learning predictions usually depends on the accuracy of 
 People can check their health status at a much lower cost by using our product.
 
 
+
+## Limitations
+
+
+
+The accuracy of machine learning predictions usually depends on the accuracy of the data it uses to learn. Early symptoms of diabetes vary from person to person and could be different for each individual, so there might be some false-positive likelihood or false-negative likelihood. Hence, we highly recommended that anyone who feels abnormal go to the hospital immediately for a more specialized examination. 
+
+
+
+## Group Contribution
+
+
+
+- ***Yiran Liu***: He is mainly responsible for the machine learning part. By continuously optimizing the machine learning algorithms, he has been able to achieve an optimal predictive state for our predictive models to support our projects.
+- ***Zhuofan Huang***: He is mainly responsible for the proposal and the webapp development in this project. By utilizing the XG Boost model that we've trained to develop the webapp based on Flask web framework written in Python, we were able to achieve the"full success" of this project.
+- ***Jiyuan Lyu***: She is mainly responsible for webapp development including the CSS stylesheet editing. She also assists Yiran in predicting the Diabetes Risk during Machine learning part.  She also helped the group with the writing of project proposal.
+
+
+
+## Acknowledgements
+
+- [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Early+stage+diabetes+risk+prediction+dataset.#): Provided data set support to ensure the successful completion of the project. This data set has been collected using direct questionnaires from the patients of Sylhet Diabetes Hospital in Sylhet, Bangladesh, and approved by a doctor.
+- [CDC - What is Diabetes?](https://www.cdc.gov/diabetes/basics/diabetes.html): Provides scientific knowledge about Diabetes and gives us a lot of inspiration
