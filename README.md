@@ -42,7 +42,7 @@ In this project, we utilized machine learning algorithms to predict early-stage 
 
 ## Getting Start
 
-
+Before using this Web App, you should go through the following coding steps, download it on GitHub and launch this WebApp on your computer.
 
 #### Installation
 
