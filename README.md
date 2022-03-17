@@ -82,7 +82,7 @@ $ flask run
 
 ## Usage
 
-
+The function of this Web App is mainly through three pages, you can learn how to use each page according to the following description.
 
 ***Home Page***
 
