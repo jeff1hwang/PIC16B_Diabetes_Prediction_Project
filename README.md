@@ -146,7 +146,7 @@ The accuracy of machine learning predictions usually depends on the accuracy of 
 
 
 - ***Yiran Liu***: He is mainly responsible for the machine learning part. By continuously optimizing the machine learning algorithms, he has been able to achieve an optimal predictive state for our predictive models to support our projects.
-- ***Zhuofan Huang***: He is mainly responsible for the proposal and the webapp development in this project. By utilizing the XG Boost model that we've trained to develop the webapp based on Flask web framework written in Python, we were able to achieve the"full success" of this project.
+- ***Zhuofan Huang***: He is mainly responsible for the proposal and the webapp development in this project. By utilizing the XG Boost model that we've trained to develop the webapp based on Flask web framework written in Python, we were able to achieve the"full success" of this project. He also assisted the group with extracting and saiving the best model file.
 - ***Jiyuan Lyu***: She is mainly responsible for webapp development including the CSS stylesheet editing. She also assists Yiran in predicting the Diabetes Risk during Machine learning part.  She also helped the group with the writing of project proposal.
 
 
