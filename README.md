@@ -139,6 +139,8 @@ People can check their health status at a much lower cost by using our product.
 
 The accuracy of machine learning predictions usually depends on the accuracy of the data it uses to learn. Early symptoms of diabetes vary from person to person and could be different for each individual, so there might be some false-positive likelihood or false-negative likelihood. Hence, we highly recommended that anyone who feels abnormal go to the hospital immediately for a more specialized examination. 
 
+In addition, our model is completely based on the original dataset and is not time-sensitive. So it doesn't get more accurate as user usage grows. To develop this limitation in future steps, we recommend returning its official test results in the form of emails, and then adding to the database and allowing our model to continue "learning".
+
 
 
 ## Group Contribution
